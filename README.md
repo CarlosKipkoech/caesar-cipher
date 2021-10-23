@@ -2,7 +2,7 @@
 #### By CARLOS KIPKOECH
 ## Description
 
- This is the link to my [live site]( )
+ This is the link to my [live site](https://github.com/DWN7777/caesar-cipher/ )
 
 
 ## Setup/Installation Requirements
@@ -18,7 +18,8 @@
 * Java
 
 ## Support and contact details
-Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the page, feel free to reach me at :fredrick.mutsotso@student.moringaschool.com
+Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the page, feel free to reach me at :
+carloskipkoech.77@gmail.com
 
 ## License
 *MIT License*
