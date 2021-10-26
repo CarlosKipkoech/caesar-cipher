@@ -1,7 +1,7 @@
 # Caesar Cipher
 #### By CARLOS KIPKOECH
 ## Description
-Caesar cipher lets you encrypt or decrypt phrases using preferred shift Key value,
+Caesar cipher lets you encrypt or decrypt phrases using preferred shift Key value.
 
  This is the link to my [live site](https://github.com/DWN7777/caesar-cipher/ )
 
