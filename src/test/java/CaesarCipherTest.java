@@ -16,8 +16,8 @@ public class CaesarCipherTest {
     public void CaeserCipher_takeStringInput_string(){
         CaesarCipher testCaeserCipher = new CaesarCipher();
         String expectedOutput = new String();
-        expectedOutput = "tomorrow";
-        assertEquals(expectedOutput, testCaeserCipher.doCaesarCipher("pkiknnks", 4));
+        expectedOutput = "jgnnqVyqtnf";
+        assertEquals(expectedOutput, testCaeserCipher.encrypt("hello world", 2));
     }
 
 
@@ -25,16 +25,16 @@ public class CaesarCipherTest {
     public void CaeserCipher_doEncryption_string(){
         CaesarCipher testCaeserCipher =new CaesarCipher();
         String expectedOutput = new String();
-        expectedOutput = "tomorrow";
-        assertEquals(expectedOutput, testCaeserCipher.doCaesarCipher("pkiknnks", 4));
+        expectedOutput = "jgnnqVyqtnf";
+        assertEquals(expectedOutput, testCaeserCipher.encrypt("hello world", 2));
     }
 
     @Test
     public void CaeserCipher_unDoDecryption_string(){
         CaesarCipher testCaeserCipher = new CaesarCipher();
         String expectedOutput = new String();
-        expectedOutput = "pkiknnks";
-        assertEquals(expectedOutput, testCaeserCipher.unDoCaeserCipher( "tomorrow", 4));
+        expectedOutput = "jgnnq";
+        assertEquals(expectedOutput, testCaeserCipher.encrypt( "hello", 2));
     }
 
     @Test
@@ -42,6 +42,6 @@ public class CaesarCipherTest {
         CaesarCipher testCaeserCipher = new CaesarCipher();
         String expectedOutput = new String();
         expectedOutput = "TOMORROW";
-        assertEquals(expectedOutput, testCaeserCipher.doCaesarCipher("PKIKNNKS", 4) );
+        assertEquals(expectedOutput, testCaeserCipher.encrypt("PKIKNNKS", 4) );
     }
 }
